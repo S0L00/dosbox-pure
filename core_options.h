@@ -370,6 +370,7 @@ static retro_core_option_definition option_defs[] =
 		"To add SoundFonts, copy them into the 'system' directory of the frontend." "\n\n", //end of Audio section
 		{
 			{ "none", "<No SF2 file found>" },
+			{ "mt32", "MT-32 emulator" },
 		},
 		"none"
 	},
