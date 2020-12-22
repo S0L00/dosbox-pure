@@ -128,6 +128,7 @@
   <ItemGroup>
     <ClCompile Include="dosbox_pure_libretro.cpp" />
     <ClCompile Include="keyb2joypad.cpp" />
+    <ClCompile Include="midi_mt32.cpp" />
     <ClCompile Include="src\cpu\callback.cpp">
       <Optimization>MaxSpeed</Optimization>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -552,6 +553,8 @@
     <ClInclude Include="include\timer.h" />
     <ClInclude Include="include\vga.h" />
     <ClInclude Include="include\video.h" />
+    <ClInclude Include="midi_mt32.h" />
+    <ClInclude Include="mt32options.h" />
     <ClInclude Include="src\cpu\core_dyn_x86\decoder.h" />
     <ClInclude Include="src\cpu\core_dyn_x86\dyn_fpu.h" />
     <ClInclude Include="src\cpu\core_dyn_x86\dyn_fpu_dh.h" />

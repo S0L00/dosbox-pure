@@ -106,6 +106,9 @@ MidiHandler Midi_none;
 #endif
 #endif /* C_DBP_NATIVE_MIDI */
 
+#include "midi_mt32.h"
+static MidiHandler_mt32 &Midi_mt32 = MidiHandler_mt32::GetInstance();
+
 
 DB_Midi midi;
 

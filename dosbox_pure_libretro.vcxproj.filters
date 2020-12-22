@@ -318,6 +318,9 @@
     </ClCompile>
     <ClCompile Include="dosbox_pure_libretro.cpp" />
     <ClCompile Include="keyb2joypad.cpp" />
+    <ClCompile Include="midi_mt32.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\bios.h">
@@ -637,6 +640,12 @@
     </ClInclude>
     <ClInclude Include="core_options.h" />
     <ClInclude Include="libretro-common\include\libretro.h" />
+    <ClInclude Include="midi_mt32.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="mt32options.h">
+      <Filter>src</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include" />
